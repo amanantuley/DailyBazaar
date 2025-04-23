@@ -1,0 +1,109 @@
+@font-face {
+    font-family: fa;
+    src: url(../../../Poppins-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fa;
+
+}
+.main{
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+}
+body{
+   overflow-x: hidden;
+}
+.heading{
+    color: #00BFDA;
+    font-size: 48px;
+    font-weight: 1000;
+    font-family: fa;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.image{
+
+    position: absolute;
+    top: -190px;
+    left: 605px;
+    /* border-radius: var(--br-26xl) 0 0 var(--br-26xl); */
+    width: 1042px;
+    height: 1042px;
+    object-fit: cover;
+}
+.Robo{
+    height: 1042px;
+    width: 1042px;
+}
+
+.container{
+    display: flex;
+    position: relative;
+}
+.login{
+    /* display: flex; */
+    /* border: 2px solid black; */
+    /* z-index: 2; */
+    height: 700px;
+    width: 405px;
+    margin-left: 175px;
+    position: relative;
+    top: 138px;
+
+}
+.login p{
+    font-weight: bold;
+    line-height: 35px;
+}
+.Login-email{
+    margin-top: 57px;
+    word-spacing: 2px;
+}
+.Login-email-text{
+    height: 30px;
+    width: 404px;
+    border-radius: 10px;
+    border: 0.1px solid rgba(112, 111, 111, 0.596);
+    padding-left: 10px;
+    color: rgba(75, 76, 76, 0.973);
+}
+
+.Login-password{
+    margin-top: 30px;
+}
+
+.Login-password-text{
+    height: 30px;
+    width: 404px;
+    border-radius: 10px;
+    border: 0.1px solid rgba(112, 111, 111, 0.596);
+    padding-left: 10px;
+    color: rgba(75, 76, 76, 0.973);
+}
+.Login-password-forget{
+    float: right;
+    margin-top: 30px;
+    font-size: 10px;
+    color:#0C2A92;
+    font-weight: bold;
+    cursor: pointer;
+}
+.Login-button{
+    font-size: 13px;
+    height: 30px;
+    width: 404px;
+    background-color: black;
+    color: white;
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 70px;
+    cursor: pointer;
+
+}

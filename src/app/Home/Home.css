@@ -1,0 +1,56 @@
+@font-face {
+    font-family: fa;
+    src: url(../../../Poppins-Light.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: fa;
+
+}
+
+.main{
+    height: 100vh;
+    width: 100vh;
+    position: relative;
+}
+body{
+   overflow-x: hidden;
+}
+.heading{
+    color: #00BFDA;
+    font-size: 48px;
+    font-weight: 1000;
+    font-family: fa;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-shadow: 2px 2px 3px #3b757c;
+}
+.image{
+
+    position: absolute;
+    top: -190px;
+    left: 605px;
+    /* border-radius: var(--br-26xl) 0 0 var(--br-26xl); */
+    width: 1042px;
+    height: 1042px;
+    object-fit: cover;
+}
+.Robo{
+    height: 1042px;
+    width: 1042px;
+}
+
+.container{
+    display: flex;
+    position: relative;
+}
+
+.head{
+    font-size: 60px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px grey;
+    margin-left: 50px;
+    margin-top: 80px;
+}
