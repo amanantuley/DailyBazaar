@@ -1,0 +1,20 @@
+{
+  "name": "dailybazaar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "icons": "^1.0.0",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.2",
+    "next": "^14.2.5",
+    "next-auth": "^4.24.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
